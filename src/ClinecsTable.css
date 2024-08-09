@@ -1,0 +1,10 @@
+.clinicstable-header-div{
+    width: 0.8px;
+    /* color: white; */
+    background-color: rgb(163, 163, 163);
+    height: 29px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+    z-index: 5;
+  }

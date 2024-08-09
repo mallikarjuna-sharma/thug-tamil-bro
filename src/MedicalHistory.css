@@ -1,0 +1,117 @@
+.medicalhistory-2nddiv-plus {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: green;
+}
+.medicalhistory-main-div {
+  background: #d7d3d35e;
+  margin: 10px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 7px;
+}
+
+.medicalhistory-2nd-div {
+  background: #d7d3d35e;
+  margin: 0px 50px;
+  gap: 5px;
+  justify-content: center;
+  border-radius: 0px 0px 7px 7px;
+  padding: 8px;
+  align-items: center;
+}
+.medicalhistory-input-label {
+  margin-left: 10px;
+  color: red;
+  font-weight: 500;
+}
+
+.medicalhistory-visit-input {
+  width: 308px;
+  border-radius: 5px;
+    margin-right: 6px;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px rgb(147, 147, 147);
+}
+
+#templates {
+
+  width: 300px;
+  border-radius: 5px;
+    margin-right: 6px;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px rgb(147, 147, 147);
+}
+
+.medicalhistory-3rd-div span {
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  font-size: small;
+  border-radius: 7px;
+}
+
+.medicalhistory-3rd-div span:hover {
+  cursor: pointer !important;
+}
+
+.medicalhistory-nex-button {
+  border: none;
+  color: white;
+  background-color: green;
+  border-radius: 7px;
+  padding: 2px 15px;
+}
+
+.medichistory-header-icons-div {
+  margin-left: 521px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .medicalhistory-visit-input {
+    width: 250px;
+  }
+  .medichistory-header-icons-div {
+    margin-left: 460px;
+  }
+
+  #templates {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .medichistory-header-icons-div {
+    margin-left: 350px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .medicalhistory-visit-input {
+    width: 194px !important;
+  }
+
+  #templates {
+    width: 194px !important;
+  }
+
+  .medicalhistory-visitreason-div {
+    margin-right: 10px !important;
+  }
+
+  .medicalhistory-master-div {
+    margin-left: 10px !important;
+  }
+  .medichistory-header-icons-div {
+    margin-left: 46px;
+}
+}
